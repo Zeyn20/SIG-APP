@@ -1,0 +1,43 @@
+/* Bloque: name-input-screen */
+/* Header transparente */
+.transparent-header {
+  --background: transparent;
+  --box-shadow: none;
+}
+
+.transparent-toolbar {
+  --background: transparent; 
+  --box-shadow: none;
+}
+
+.name-input-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px;
+  height: 100vh; /* Altura completa de la vista */
+  box-sizing: border-box; /* Incluye el padding en el cálculo de altura */
+}
+
+/* Elemento: card-container dentro del bloque name-input-screen */
+.name-input-screen__card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; /*Espacio suficiente para el header */
+  flex-grow: 1;
+}
+
+/* Elemento: button dentro del bloque name-input-screen */
+.name-input-screen__button {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 400px;
+  --border-color: #000;
+  --border-width: 1px;
+  --border-radius: 10px;
+  --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

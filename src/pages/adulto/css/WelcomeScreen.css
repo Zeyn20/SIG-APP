@@ -1,0 +1,23 @@
+/* Bloque: welcome-screen */
+
+/* Elemento: card-container dentro del bloque welcome-screen */
+.welcome-screen__card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+
+
+/* Elemento: button dentro del bloque welcome-screen */
+.welcome-screen__button {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 400px;
+  --border-color: #000;
+  --border-width: 1px;
+  --border-radius: 10px;
+  --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

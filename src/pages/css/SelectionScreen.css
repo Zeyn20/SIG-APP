@@ -1,0 +1,22 @@
+/* Bloque: selection-screen */
+.selection-screen {
+  padding: 16px;
+}
+
+/* Elemento: title dentro del bloque selection-screen */
+.selection-screen__title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Elemento: card-container dentro del bloque selection-screen */
+.selection-screen__card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+

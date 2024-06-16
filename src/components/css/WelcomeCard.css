@@ -1,0 +1,29 @@
+/* Bloque: welcome-card */
+.welcome-card {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(212, 241, 244, 0.61);
+  border-radius: 10px;
+  overflow: visible;
+}
+
+/* Elemento: title dentro del bloque welcome-card */
+.welcome-card__title {
+  margin: 16px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* Elemento: content dentro del bloque welcome-card */
+.welcome-card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Elemento: image dentro del bloque welcome-card */
+.welcome-card__image {
+  width: 150px;
+  margin: 20px auto;
+}
